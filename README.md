@@ -51,11 +51,21 @@ Posteriormente, se realizó una variación de estimaciones (2,4,6,8,10) para vis
 ![image](https://user-images.githubusercontent.com/58440787/189464550-1abea728-55eb-4642-850e-ce575b163590.png)
 
 #### Predicciones de prueba: 
-Visualizamos que el modelo fue casi totalmente preciso, al no haber tanta diferencia entre las predicciones y los valores estimados. Esto lo reflejamos en la matriz de confusión.
+Visualizamos que el modelo fue casi totalmente preciso, al no haber tanta diferencia entre las predicciones y los valores estimados.
+A continuación, se reflejan tablas que nos mencionan las entradas de X que indican si un tumor es maligno o benigno, de misma forma, se visualiza si la predicción cumplió o no.
 
-![image](https://user-images.githubusercontent.com/58440787/189464563-1ae40554-17d4-4b46-a4e8-8513cd22936e.png)
+<img width="1040" alt="image" src="https://user-images.githubusercontent.com/58440787/190924268-a31de559-0133-48cb-97e1-e385cfb7e925.png">
+
+
+<img width="1047" alt="image" src="https://user-images.githubusercontent.com/58440787/190924353-4699d026-3dd6-4377-84d0-5ed898186bf0.png">
+
+
+
+Al realizar un filtro, notamos que solo hay 5 ocasiones en los que el modelo falló, esto lo reflejamos en resumen con la matriz de confusión.
+
 
 ![image](https://user-images.githubusercontent.com/58440787/189464574-2a1576ae-d558-4d94-8ac3-46f1b3236d19.png)
 
+Siendo **132** los acertados y **5** los fallidos.
 
 
